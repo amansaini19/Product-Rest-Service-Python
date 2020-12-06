@@ -21,9 +21,9 @@ This is a simple REST based service application that I developed when I was lear
 * Waitress
 
 ## Instructions:
-To start the server, run `python AppServer.py`
-The server will listen locally on port 8000
-Go to http://localhost:8000/search/category (or one of the other end-points)
+* To start the server, run `python AppServer.py`
+* The server will listen locally on port 8000
+* Go to http://localhost:8000/search/category (or one of the other end-points)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
