@@ -4,6 +4,17 @@ This is a Python implementation of the Java project https://github.com/amansaini
 
 Please note that this is my first ever Python application. I read a Python for Java developers book and implemented this in a few hours.
 
+This is a simple REST based service application that I developed when I was learning about web services. The application loads a file containing production data (products.json) to in an in-memory map at startup and provides the following end-points for querying for product related data:
+
+
+```
+/search/category - returns a list of all known product categories 
+/search/category/{category} - returns a list of all products for the provided category (example: /search/category/upright%20brooms)
+/search/category/{category}/keyword/{word} - returns a list of products for the provided category and keyword (example: /search/category/upright%20brooms/keyword/clean)
+/search/keyword - returns a list of all known product keywords (keywords are based on the title)
+/search/keyword/{word} - returns a list of products for the provided keyword
+```
+
 ## Requirements:
 * Python (developed using version 3.9)
 * Falcon
