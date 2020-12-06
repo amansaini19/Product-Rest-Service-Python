@@ -10,7 +10,7 @@ Please note that this is my first ever Python application. I read a Python for J
 * Waitress
 
 ## Instructions:
-To start the server, run 'python AppServer.py'
+To start the server, run `python AppServer.py`
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
